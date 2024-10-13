@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/streadway/amqp"
+	amqp "github.com/rabbitmq/amqp091-go"
 	"go-micro.dev/v5/broker"
-	"go-micro.dev/v5/logger"
 	"go-micro.dev/v5/cmd"
+	"go-micro.dev/v5/logger"
 )
 
 type rbroker struct {
